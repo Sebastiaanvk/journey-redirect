@@ -1,6 +1,6 @@
 # Redirect to playjourney.com
-Redirect 302 /(.*) https://playjourney.com/$1?ref=playjourny
+# Redirect 302 (.*) https://playjourney.com/$1?ref=playjourny
 
-# RewriteEngine On
+RewriteEngine On
 # RewriteCond %{HTTPS} on
-# RewriteRule (.*) "https://playjourney.com/%{REQUEST_URI}?ref=playjourny" [R=302,L]
+RewriteRule (.*) "https://playjourney.com/$1?ref=playjourny" [R=302,L]
