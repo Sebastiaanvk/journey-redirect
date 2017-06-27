@@ -1,6 +1,6 @@
 # Redirect to playjourney.com
 Redirect 301 / https://playjourney.com/
 
-RewriteEngine On
-RewriteCond %{HTTPS} on
-RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+# RewriteEngine On
+# RewriteCond %{HTTPS} on
+# RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
